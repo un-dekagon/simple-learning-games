@@ -1,0 +1,48 @@
+html,body {
+    background-color: powderblue;
+    font-size: 24px;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;;
+}
+.cursive {
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.blockletter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    width: 80%;
+    align-content: space-around;
+    background-color: cadetblue;
+    border: 0.3rem dashed black;
+    box-shadow: 22px 15px 10px black;
+    border-radius: 30%;
+    padding: 1rem;
+}
+.field {
+    padding: 0.9rem;
+    margin: 0.4rem;
+    width: 4.5rem;
+    height:2rem;
+    border: 0.2rem solid;
+    border-radius: 40%;
+    border-color: blue;
+    box-shadow: 10px 5px 5px black;
+    background-color: gold;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.square {
+    color: blueviolet;
+}

@@ -1,0 +1,6 @@
+.tiling{
+    background-image: 
+        url( '/path/image-3.svg' ),
+        url( '/path/image-3.svg' );
+    background-color: blanchedalmond; 
+}
