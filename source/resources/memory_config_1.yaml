@@ -1,0 +1,7 @@
+card_template:
+  vorderseite: vorderseite.svg
+  rueckseite: rueckseite.svg
+cards: [{a: b}, {c: d}]
+
+  
+
