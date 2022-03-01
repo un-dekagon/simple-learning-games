@@ -1,0 +1,12 @@
+startpoint: 
+  x: 0
+  y: 0
+  direction: 0
+  
+d1:
+  type: triangle
+  # punkte, kanten, richtungen, längen (immer 1)
+  neighbours: [empty, empty, d2]
+d2:
+  type: triangle
+  neighbours: [empty, empty, d1]
